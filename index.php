@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="recursos/css/estilo.css">
     <title>Curso PHP</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
@@ -14,7 +16,7 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
-                 <div class="modulo roxo">
+                <div class="modulo roxo">
                     <h3>4. Controle</h3>
                     <ul>
                         <li>
@@ -32,8 +34,18 @@
                                 Desafio PI
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=controle&file=operadores_logicos">
+                                Operadores Lógicos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=controle&file=desafio_operadores_logicos">
+                                Desafio Op. Lógicos
+                            </a>
+                        </li>
                     </ul>
-                 </div>
+                </div>
                 <div class="modulo azul">
                     <h3>3. Variáveis</h3>
                     <ul>
@@ -59,12 +71,12 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">
-                                Variáveis Variáveis	
+                                Variáveis Variáveis
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=desafio_variaveis">
-                                Desafio Variáveis	
+                                Desafio Variáveis
                             </a>
                         </li>
                         <li>
@@ -157,7 +169,9 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3R & EVERTON FERNANDES MEDEIROS © <?= date('Y'); ?>
+        COD3R & EVERTON FERNANDES MEDEIROS ©
+        <?= date('Y'); ?>
     </footer>
 </body>
+
 </html>
